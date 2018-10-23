@@ -8,6 +8,7 @@ class SpaController extends Controller
 {
     public function index()
     {
+        // Ceci va s'afficher si et seulement si l'environnement est en mode production
         return view('index');
     }
 }
